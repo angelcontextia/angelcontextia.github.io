@@ -1,0 +1,95 @@
+/*
+  Este archivo decide CÓMO SE VE tu página.
+  El index.html dice QUÉ hay; este archivo dice qué aspecto tiene.
+
+  En CSS, esto de aquí es un comentario: notas para humanos
+  que el navegador ignora.
+
+  La regla del juego: cambia un valor, guarda, recarga la página.
+  Un cambio cada vez, así siempre sabes qué hizo qué.
+*/
+
+/* ============================================================
+   TUS COLORES — empieza por aquí (Lección 3)
+   Estas son "variables": defines un color una sola vez
+   y se usa en toda la página. Cambia uno y mira qué pasa.
+   Puedes elegir colores en https://coolors.co
+   ============================================================ */
+:root {
+  --color-bg: #fdf6ec;      /* el fondo de toda la página */
+  --color-text: #2d2a26;      /* el color de casi todo el texto */
+  --color-accent: #b64f16;     /* títulos y detalles: tu color favorito aquí */
+  --color-link: #1b6ec2;     /* los enlaces */
+}
+
+/* ============================================================
+   LA PÁGINA ENTERA
+   "body" selecciona la etiqueta <body> de tu HTML:
+   todo lo visible. Por eso estos cambios afectan a todo.
+   ============================================================ */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+
+  /* La tipografía. Prueba a cambiar "Georgia" por "Verdana" */
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;            /* espacio entre líneas: prueba 1.2 y luego 2 */
+
+  /* Esto centra el contenido y evita líneas demasiado largas */
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* ============================================================
+   LOS TÍTULOS
+   "h1, h2" selecciona los DOS tipos de título a la vez.
+   ============================================================ */
+h1, h2 {
+  color: var(--color-accent);
+  font-weight: normal;
+}
+
+/* Y aquí una regla SOLO para el título grande */
+h1 {
+  font-size: 42px;
+}
+
+/* ============================================================
+   LOS ENLACES
+   ============================================================ */
+a {
+  color: var(--color-link);
+}
+
+/* ":hover" significa "cuando el ratón está encima". Pruébalo. */
+a:hover {
+  background-color: var(--color-link);
+  color: var(--color-bg);
+}
+
+/* ============================================================
+   LA CABECERA Y EL PIE
+   ============================================================ */
+header {
+  /* Una línea decorativa bajo tu presentación */
+  border-bottom: 3px solid var(--color-accent);
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+}
+
+footer {
+  border-top: 1px solid var(--color-text);
+  margin-top: 48px;
+  padding-top: 16px;
+  font-size: 14px;             /* letra más pequeña para el pie */
+}
+
+/* ============================================================
+   ¿HASTA AQUÍ TODO BIEN?
+   Reto: haz que los elementos de tu lista (<li>) tengan
+   un poco más de espacio entre sí. Pista: ya viste cómo
+   seleccionar una etiqueta, y "margin-bottom" existe.
+   Si te atascas, pregúntale al tutor — pero inténtalo antes.
+   ============================================================ */
