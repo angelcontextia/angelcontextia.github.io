@@ -17,8 +17,8 @@
    ============================================================ */
 :root {
   --color-bg: #000000;      /* el fondo de toda la página */
-  --color-text: #FCA311;      /* el color de casi todo el texto */
-  --color-accent: #E5E5E5;     /* títulos y detalles: tu color favorito aquí */
+  --color-text: #E5E5E5;      /* el color de casi todo el texto */
+  --color-accent: #FCA311;     /* títulos y detalles: tu color favorito aquí */
   --color-link: #FFFFFF;     /* los enlaces */
 }
 
