@@ -32,7 +32,7 @@ body {
   color: var(--color-text);
 
   /* La tipografía. Prueba a cambiar "Georgia" por "Verdana" */
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Verdana, "Times New Roman", serif;
   font-size: 18px;
   line-height: 1.6;            /* espacio entre líneas: prueba 1.2 y luego 2 */
 
