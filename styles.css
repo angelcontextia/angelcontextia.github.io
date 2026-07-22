@@ -54,6 +54,7 @@ h1, h2 {
 /* Y aquí una regla SOLO para el título grande */
 h1 {
   font-size: 42px;
+  font-family: "Playwrite ES", cursive;
 }
 
 /* ============================================================
