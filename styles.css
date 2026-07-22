@@ -33,7 +33,7 @@ body {
 
   /* La tipografía. Prueba a cambiar "Georgia" por "Verdana" */
   font-family: Verdana, "Times New Roman", serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;            /* espacio entre líneas: prueba 1.2 y luego 2 */
 
   /* Esto centra el contenido y evita líneas demasiado largas */
